@@ -42,3 +42,9 @@ form{
     color: #fff;
     margin: 1.6em;
 }
+textarea{
+    margin: 0%;
+    padding: 1.8em;
+    box-shadow: inset;
+    align-items:end;
+}
