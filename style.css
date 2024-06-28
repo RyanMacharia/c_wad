@@ -1,6 +1,6 @@
 header{
-    background-color: rgb(215, 228, 228);
-    color: #3b3131;
+    background-color: rgb(154, 204, 232);
+    color: #f5eff4;
     padding: 20px;
     
 
@@ -12,6 +12,7 @@ body{
     padding: 0;
     font-size: 15px;
     background-image: -moz-element(display);
+    background-color:#c3adb2 ;
 }
 
 nav ul{
@@ -59,11 +60,14 @@ label{
     display: flex;
     justify-content: space-between;
 }
-.left-nav{
+.topnav-right{
     display: flex;
     justify-content: flex-start;
 }
-.right-nav{
+.topnav-left{
     display: flex;
     justify-content: flex-end;
+}
+footer{
+    background-color: #FFD1DC(109, 95, 77);
 }
