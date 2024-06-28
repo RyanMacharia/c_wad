@@ -55,3 +55,15 @@ p{
 label{
     align-items: left;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+}
