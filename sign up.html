@@ -34,8 +34,31 @@
         <ul></header>
             <form action="index.html" method="post">
 
-                <label for="name">Name:</label>
-                <input id="name" type="text"/><br>
+                <label for="username">Username:</label>
+<br>
+<input type="text" id="username" name="username" placeholder="USERNMAE">
+<br>
+
+<label for="password">Password:</label>
+<br>
+<input type="password" id="password" name="password" placeholder="PASSWORD"><br><br>
+<label for="email">Email:</label>
+<br>
+<input type="email" id="email" name="email" placeholder="ENTER EMAIL">
+<br><br>
+<select name="yearOfBirth">
+    <option value="">Select Year</option>
+    <!-- Loop to generate options from 1980 to current year -->
+    <?php
+    $currentYear = date("Y");
+    for ($year = 1980; $year <= $currentYear; $year++) {
+        echo "<option value='$year'>$year</option>";
+    }
+    ?>
+</select>
+```
+<br>
+
 
                 
                 
