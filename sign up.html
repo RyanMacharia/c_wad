@@ -49,14 +49,8 @@
 <select name="yearOfBirth">
     <option value="">Select Year</option>
     <!-- Loop to generate options from 1980 to current year -->
-    <?php
-    $currentYear = date("Y");
-    for ($year = 1980; $year <= $currentYear; $year++) {
-        echo "<option value='$year'>$year</option>";
-    }
-    ?>
 </select>
-```
+<button onclick="create()">Create acc</button>
 <br>
 
 
